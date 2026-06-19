@@ -30,7 +30,7 @@ mood = st.radio(
 
 subject = st.selectbox(
         'rockne',
-        ['airockne', 'franklin','kahu']
+        ['math', 'scince ,'cooking']
 
     )
 
@@ -48,14 +48,14 @@ minute = st.slider(
 
 
 if st.button('rockne'):
-    if subject == "kahu":
+    if subject == "math":
         task = [
-        "do 5 questions","prepare new","give me some tough questions","geometry","triangle*3"
+        "do 5 questions","prepare new","give me some tough questions","geometry","triangle"
         ]
-    elif subject == "airockne":
-        task = ["Review one airockne buddy."]
-    elif subject =="franklin":
-            task = ["read a article about steven burpa "]
+    elif subject == "scince":
+        task = ["Review one chemcical reaction buddy."]
+    elif subject =="cooking":
+            task = ["read a article about My mum"]
     if mood == "tired":
         tip = "start with only 10 minutes first."
     elif mood == "okay":
