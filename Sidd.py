@@ -66,7 +66,20 @@ if st.button('rockne'):
     st.write("Smart tip")
     st.info(tip)
     st.write("motovation")
-    st.success(random.choice(task))
+    import random
+import streamlit as st
+
+# 1. Define the 'task' list BEFORE line 69
+task = [
+    "Complete the presentation",
+    "Review the codebase",
+    "Submit the final report",
+    "Schedule the team meeting"
+]
+
+# 2. Your original code will now work perfectly:
+st.success(random.choice(task))
+
     st.write("Bonus Challange")
     st.write("Teach Someone what you learned today!")
 
