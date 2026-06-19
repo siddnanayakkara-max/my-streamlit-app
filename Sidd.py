@@ -81,7 +81,7 @@ task = [
 st.success(random.choice(task))
 
 st.write("Bonus Challange")
-    st.write("Teach Someone what you learned today!")
+st.write("Teach Someone what you learned today!")
 
 
 
