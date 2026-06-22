@@ -30,7 +30,7 @@ mood = st.radio(
 
 subject = st.selectbox(
         'rockne',
-        ['math', 'science', 'cooking']
+        ['math', 'science', 'cooking,' 'technology,]
 
     )
 
@@ -56,6 +56,8 @@ if st.button('rockne'):
         task = ["Review one chemcical reaction buddy."]
     elif subject =="cooking":
             task = ["read a article about My mum"]
+    elif subject == "technology":
+        task = ["Start making a new studybot"]
     if mood == "tired":
         tip = "start with only 10 minutes first."
     elif mood == "okay":
