@@ -30,7 +30,8 @@ mood = st.radio(
 
 subject = st.selectbox(
         'rockne',
-        ['math', 'science', 'cooking,' 'technology,]
+        ['math', 'science', 'cooking', 'technology']
+
 
     )
 
