@@ -74,10 +74,10 @@ import streamlit as st
 
 # 1. Define the 'task' list BEFORE line 69
 task = [
-    "Complete the presentation",
-    "Review the codebase",
-    "Submit the final report",
-    "Schedule the team meeting"
+    "review a great lesson of rockne",
+    "stop selling",
+    "help dobby being didled by lord voldermort",
+    "Schedule lebron james"
 ]
 
 # 2. Your original code will now work perfectly:
