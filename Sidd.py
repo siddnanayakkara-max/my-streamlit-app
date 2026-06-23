@@ -76,7 +76,7 @@ import streamlit as st
 task = [
     "review a great lesson of rockne",
     "stop selling",
-    "help dobby being didled by lord voldermort",
+    "help dobby being didled by lord hornyrmort",
     "Schedule lebron james"
 ]
 
